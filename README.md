@@ -1,5 +1,7 @@
 # HC-SR501 Sensor Go API
 
+[![GoDoc](https://godoc.org/github.com/littlehawk93/go-sr501?status.svg)](https://godoc.org/github.com/littlehawk93/go-sr501)
+
 Provides a simple, easy-to-use API for interfacing with the HC-SR501 IR motion sensor on the Raspberry Pi platform using GPIO pins.
 
 ### Features

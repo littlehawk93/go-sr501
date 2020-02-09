@@ -1,4 +1,4 @@
-package motion
+package sr501
 
 import (
 	"periph.io/x/periph/conn/gpio"

@@ -25,7 +25,7 @@ wg := sync.WaitGroup{}
 wg.Add(1)
 
 // Bind the sensor signal pin to GPIO Pin #17
-sensor, err := motion.NewSensor("17", func() {
+sensor, err := sr501.NewSensor("17", func() {
 
     // Print that motion was detected and unlock the wait group
     log.Println("MOTION DETECTED!")
